@@ -49,11 +49,11 @@
 
 @layer utilities {
   .text-gradient {
-    @apply bg-gradient-to-r from-crypto-purple to-crypto-light-purple bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-shasti-purple to-shasti-light-purple bg-clip-text text-transparent;
   }
 
   .bg-gradient-hero {
-    @apply bg-gradient-to-br from-crypto-blue via-[#252A3C] to-[#1E2233];
+    @apply bg-gradient-to-br from-shasti-blue via-[#252A3C] to-[#1E2233];
   }
 
   .hero-glow:after {
@@ -82,5 +82,73 @@
 
 .animate-on-scroll.show {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
+}
+
+/* Reveal variants */
+.animate-on-scroll.reveal-left  { transform: translateX(-40px); }
+.animate-on-scroll.reveal-right { transform: translateX(40px); }
+.animate-on-scroll.reveal-scale { transform: scale(0.94) translateY(12px); }
+
+/* Animated underline that draws itself */
+.reveal-line {
+  height: 3px;
+  width: 0;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #9b87f5, #D6BCFA);
+  transition: width 0.8s ease-out 0.2s;
+}
+.reveal-line.show { width: 96px; }
+
+/* Card hover lift + glow */
+.card-lift {
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out, background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+.card-lift.show:hover {
+  transform: translateY(-6px);
+  background-color: rgba(255, 255, 255, 0.09);
+  border-color: rgba(155, 135, 245, 0.4);
+  box-shadow: 0 12px 30px -10px rgba(155, 135, 245, 0.35);
+}
+
+/* Moving gradient text */
+.shimmer-text {
+  background: linear-gradient(90deg, #9b87f5, #D6BCFA, #9b87f5);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+@keyframes shimmer { to { background-position: 200% center; } }
+
+/* Soft glow pulse on primary buttons */
+.btn-glow { animation: glow-pulse 2.8s ease-in-out infinite; }
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(155, 135, 245, 0.45); }
+  50%      { box-shadow: 0 0 0 10px rgba(155, 135, 245, 0); }
+}
+
+/* Navbar link underline */
+.nav-link { position: relative; padding-bottom: 4px; }
+.nav-link::after {
+  content: "";
+  position: absolute; left: 0; bottom: 0;
+  height: 2px; width: 100%;
+  background: #9b87f5;
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.nav-link:hover::after, .nav-link.is-active::after { transform: scaleX(1); }
+
+/* Anchor targets sit below the fixed navbar */
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 4.5rem; }
+#home { scroll-margin-top: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-on-scroll, .animate-on-scroll.show { transition: none; transform: none; opacity: 1; }
+  .shimmer-text, .btn-glow { animation: none; }
+  .reveal-line { width: 96px; transition: none; }
 }
