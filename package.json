@@ -1,9 +1,8 @@
 {
-    "name": "CryptoFlow",
+    "name": "shasti-profits",
     "private": true,
     "version": "1.0.0",
     "type": "module",
-    "homepage": "https://themewagon.github.io/cryptoflow",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
