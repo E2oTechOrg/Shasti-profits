@@ -1,50 +1,46 @@
-// pricingPlansData.ts
+export interface PricingPlan {
+  name: string;
+  description: string;
+  features: string[];
+  highlighted?: boolean;
+  buttonText: string;
+}
 
-export const pricingPlans = [
+export const pricingPlans: PricingPlan[] = [
   {
-    name: "Basic",
-    price: { monthly: "$0", annual: "$0" },
-    description: "Perfect for beginners getting started with crypto trading.",
+    name: 'Market Foundations',
+    description: 'For beginners who want to understand how the Indian stock market works.',
     features: [
-      "Access to 20+ cryptocurrencies",
-      "Basic charting tools",
-      "Market data with 15-min delay",
-      "Email support",
-      "Mobile app access"
+      'How the stock market works',
+      'Equities, indices and market participants',
+      'Basic market terminology',
+      'Introduction to risk awareness',
     ],
-    buttonText: "Get Started"
+    buttonText: 'Enquire Now',
   },
   {
-    name: "Pro",
-    price: { monthly: "$19", annual: "$15" },
-    description: "Designed for active traders seeking advanced tools.",
+    name: 'Technical Analysis',
+    description: 'Learn to read charts, price action and market structure.',
     features: [
-      "Access to 50+ cryptocurrencies",
-      "Advanced charting tools",
-      "Real-time market data",
-      "Priority email support",
-      "Reduced trading fees (0.1%)",
-      "API access",
-      "Portfolio analytics"
+      'Charts and price patterns',
+      'Technical indicators',
+      'Support and resistance',
+      'Volume and Open Interest concepts',
+      'Market trends and price action',
     ],
     highlighted: true,
-    buttonText: "Start 7-Day Free Trial"
+    buttonText: 'Enquire Now',
   },
   {
-    name: "Enterprise",
-    price: { monthly: "$49", annual: "$39" },
-    description: "Comprehensive solution for professional traders.",
+    name: 'Futures & Options',
+    description: 'Understand derivatives concepts along with risk management principles.',
     features: [
-      "Access to all cryptocurrencies",
-      "Professional-grade charts",
-      "Real-time market data",
-      "24/7 dedicated support",
-      "Zero trading fees",
-      "Advanced API access",
-      "Institutional-grade security",
-      "Custom reporting",
-      "Team management"
+      'Futures and options fundamentals',
+      'Option premiums, expiry and time decay',
+      'Open Interest in derivatives',
+      'Position sizing and risk-reward',
+      'Capital preservation principles',
     ],
-    buttonText: "Contact Sales"
-  }
+    buttonText: 'Enquire Now',
+  },
 ];

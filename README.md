@@ -1,41 +1,27 @@
-# CryptoFlow – One Page Template
-#### Preview
+# Shasti Profits
 
- - [Demo](https://themewagon.github.io/cryptoflow/)
-
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/cryptoflow/)
+Equity, Futures and Options educational website — **Learn. Analyse. Grow.**
+Website: https://www.shastiprofits.com
 
 ## Getting Started
 
-1. Clone Repository
-```
-git clone https://github.com/themewagon/cryptoflow.git
-```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm i
+npm run dev      # development server
+npm run build    # production build -> dist/
+npm run preview  # preview the production build
 ```
 
-## Author 
-```
-Design and code is completely written by codescandy and development team. 
-```
+## Contact
 
-## License
+- No.8 Gowripuram Extn, 2nd Street, Karur 639 002
+- 95145 99911 / 95146 99911 / 95147 99911
+- shastiprofits@gmail.com
 
- - Design and Code is Copyright &copy; [codescandy](https://codescandy.com)
- - Licensed cover under [MIT]
- - Distributed by [ThemeWagon](https://themewagon.com)
+## Disclaimer
 
+Content is for general educational purposes only and does not constitute investment advice, research recommendations, buy or sell calls, or an offer to provide regulated financial services.
+
+## Credits
+
+Built on the MIT-licensed CryptoFlow template by Codescandy (see LICENSE).
