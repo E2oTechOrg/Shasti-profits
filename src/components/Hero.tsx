@@ -57,12 +57,12 @@ const Hero = () => {
           </div>
 
           <div className="lg:w-1/2 mt-12 lg:mt-0 animate-fade-in-right">
-            <div className="relative max-w-md mx-auto animate-float">
-              <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&h=800"
-                alt="Stock market charts and analysis"
-                className="rounded-xl shadow-2xl border border-white/10"
-              />
+  <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-xl mx-auto animate-float">
+    <img
+      src="/stock.webp"
+      alt="Stock market charts and analysis"
+      className="w-full h-[280px] sm:h-[340px] lg:h-[420px] object-cover rounded-xl shadow-2xl border border-white/10"
+    />
               <div className="absolute -right-6 -bottom-6 bg-shasti-purple/20 backdrop-blur-md rounded-lg p-4 border border-shasti-purple/30 shadow-lg">
                 <div className="flex items-center space-x-3">
                   <div className="h-10 w-10 bg-green-500/20 rounded-full flex items-center justify-center">
