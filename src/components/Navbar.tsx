@@ -11,7 +11,7 @@ const links = [
   { href: '#how-it-works', label: 'How It Works' },
   // { href: '#testimonials', label: 'Our Approach' },
   // { href: '#pricing', label: 'Learning Tracks' },
-  { href: '#faq', label: 'FAQ' },
+  // { href: '#faq', label: 'FAQ' },
   { href: '#contact', label: 'Contact Us'}
 ];
 const sectionIds = [...links.map((l) => l.href.slice(1)), 'contact'];
