@@ -4,12 +4,12 @@ import { Button } from '@/components/ui/button';
 import { MapPin, Phone, Mail, Globe, Send, Navigation } from 'lucide-react';
 
 const WHATSAPP_NUMBER = '919791399911';
-const phones = ['95145 99911', '95146 99911', '95147 99911'];
+const phones = ['95145 99911', '95146 99911'];
 const MAPS_QUERY = encodeURIComponent('No.8 Gowripuram Extn 2nd Street Karur 639002');
 const MAPS_LINK = `https://www.google.com/maps/search/?api=1&query=${MAPS_QUERY}`;
 const MAPS_EMBED = `https://www.google.com/maps?q=${MAPS_QUERY}&output=embed`;
 
-const services = ['Equity', 'Futures', 'Options', 'Not sure yet'];
+const services = ['Equity', 'Futures & Options','Commodities', 'Not sure yet'];
 
 type FormState = {
   name: string;
@@ -230,11 +230,11 @@ const ContactSection = () => {
               <div>
                 <h3 className="text-white font-semibold mb-1">Address</h3>
                 <p className="text-gray-400 text-sm sm:text-base">
-                  No.8 Gowripuram Extn<br />2nd Street<br />Karur 639 002
+                  Shasti Profits,<br />Coimbatore Road,<br />Karur
                 </p>
-                <span className="inline-flex items-center gap-1 text-shasti-purple text-sm mt-2">
+                {/* <span className="inline-flex items-center gap-1 text-shasti-purple text-sm mt-2">
                   <Navigation className="h-3.5 w-3.5" /> Open in Google Maps
-                </span>
+                </span> */}
               </div>
             </a>
 
@@ -300,7 +300,7 @@ const ContactSection = () => {
         </div>
 
         {/* Map, full width below */}
-        <div className="mt-8 lg:mt-12 animate-on-scroll relative rounded-xl overflow-hidden border border-white/10 h-[300px] sm:h-[360px] lg:h-[420px]">
+        {/* <div className="mt-8 lg:mt-12 animate-on-scroll relative rounded-xl overflow-hidden border border-white/10 h-[300px] sm:h-[360px] lg:h-[420px]">
           <iframe
             title="Shasti Profits location"
             src={MAPS_EMBED}
@@ -319,7 +319,7 @@ const ContactSection = () => {
               Get Directions
             </Button>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
