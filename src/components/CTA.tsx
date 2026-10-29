@@ -18,17 +18,23 @@ const CTA = () => {
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
             Explore financial market concepts with Shasti Profits and build your understanding one step at a time.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <a href="#contact">
               <Button size="lg" className="bg-shasti-purple hover:bg-shasti-dark-purple text-white px-8 py-6 w-full sm:w-auto">
                 Contact Us
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </a>
-            <a href="tel:9514599911">
+            <a href="tel:+919514599911">
               <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/5 py-6 w-full sm:w-auto">
                 <Phone className="mr-2 h-5 w-5" />
                 Call 95145 99911
+              </Button>
+            </a>
+            <a href="tel:+919514699911">
+              <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/5 py-6 w-full sm:w-auto">
+                <Phone className="mr-2 h-5 w-5" />
+                Call 95146 99911
               </Button>
             </a>
           </div>

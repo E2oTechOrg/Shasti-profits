@@ -25,7 +25,7 @@ export const pricingPlans: PricingPlan[] = [
       'Charts and price patterns',
       'Technical indicators',
       'Support and resistance',
-      'Volume and Open Interest concepts',
+      'Volume and institutional methodology concepts',
       'Market trends and price action',
     ],
     highlighted: true,
@@ -37,7 +37,8 @@ export const pricingPlans: PricingPlan[] = [
     features: [
       'Futures and options fundamentals',
       'Option premiums, expiry and time decay',
-      'Open Interest in derivatives',
+      'Institutional methodology in derivatives',
+      'Stock selection using our signature smart tool',
       'Position sizing and risk-reward',
       'Capital preservation principles',
     ],

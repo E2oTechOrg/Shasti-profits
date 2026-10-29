@@ -4,7 +4,7 @@ const approach = [
   { icon: <BookOpen className="h-6 w-6" />, title: 'Research-Based Market Insights', text: 'Analysis of market trends, price movements, and technical indicators.' },
   { icon: <Layers className="h-6 w-6" />, title: 'Options Trading Analysis', text: 'Insights into stock options, index options, and relevant market setups.' },
   { icon: <LineChart className="h-6 w-6" />, title: 'Technical Analysis', text: 'Identification of potential entry levels, targets, support, and resistance.' },
-  { icon: <BarChart3 className="h-6 w-6" />, title: 'Open Interest Analysis', text: 'Understanding changes in market positioning to assess potential support and resistance zones.' },
+  { icon: <BarChart3 className="h-6 w-6" />, title: 'Institutional Methodology', text: 'Understanding institutional positioning to assess potential support and resistance zones.' },
   { icon: <ShieldCheck className="h-6 w-6" />, title: 'Risk Management', text: 'Emphasis on stop-loss discipline, position sizing, and responsible capital management.' },
   { icon: <GraduationCap className="h-6 w-6" />, title: 'Trader Education', text: 'Encouraging informed decisions, patience, and disciplined trading habits.' },
 ];
@@ -28,7 +28,7 @@ const About = () => (
           Welcome to Shasti Profits, a stock market research and trading education platform dedicated to helping traders make more informed decisions in the Indian financial markets.
         </p>
         <p className="animate-on-scroll text-gray-400 text-lg leading-relaxed" style={{ transitionDelay: '350ms' }}>
-          We focus on market research, technical analysis, price action, Open Interest (OI) analysis, and options market insights to identify potential trading opportunities across Nifty 50, Bank Nifty, stock options, stock futures, equities, and selected commodity markets.
+          We focus on market research, technical analysis, price action, derivatives concepts, smart money concepts, institutional methodology and risk + money management, with insights to identify potential trading opportunities across Nifty &amp; Indices, Stock Futures &amp; Options, Equities, and selected MCX Commodity Markets.
         </p>
       </div>
 

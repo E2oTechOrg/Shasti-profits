@@ -22,7 +22,7 @@ const Hero = () => {
               Your Journey to <span className="text-gradient">Understanding the Stock Market</span> Begins Here
             </h1>
             <p className="text-lg text-gray-300 mb-8 max-w-lg">
-              Shasti Profits helps you understand the Indian stock market through structured learning — technical analysis, price action, Open Interest, derivatives concepts and risk management.
+              Shasti Profits helps you understand the Indian stock market through structured learning — technical analysis, price action, derivatives concepts, smart money concepts, institutional methodology and risk + money management.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#features">
@@ -41,28 +41,25 @@ const Hero = () => {
             <div className="mt-8 flex items-center space-x-6">
               <div>
                 <p className="text-2xl font-bold text-white">Equity</p>
-                <p className="text-sm text-gray-400">Market Basics</p>
               </div>
-              <div className="h-12 w-px bg-gray-700"></div>
+              <div className="h-8 w-px bg-gray-700"></div>
               <div>
-                <p className="text-2xl font-bold text-white">F&amp;O</p>
-                <p className="text-sm text-gray-400">Derivatives Concepts</p>
+                <p className="text-2xl font-bold text-white">Futures &amp; Options</p>
               </div>
-              <div className="h-12 w-px bg-gray-700"></div>
+              <div className="h-8 w-px bg-gray-700"></div>
               <div>
-                <p className="text-2xl font-bold text-white">OI</p>
-                <p className="text-sm text-gray-400">Market Data</p>
+                <p className="text-2xl font-bold text-white">Commodities</p>
               </div>
             </div>
           </div>
 
           <div className="lg:w-1/2 mt-12 lg:mt-0 animate-fade-in-right">
-            <div className="relative max-w-md mx-auto animate-float">
-              <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&h=800"
-                alt="Stock market charts and analysis"
-                className="rounded-xl shadow-2xl border border-white/10"
-              />
+  <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-xl mx-auto animate-float">
+    <img
+      src="/stock.webp"
+      alt="Stock market charts and analysis"
+      className="w-full h-[280px] sm:h-[340px] lg:h-[420px] object-cover rounded-xl shadow-2xl border border-white/10"
+    />
               <div className="absolute -right-6 -bottom-6 bg-shasti-purple/20 backdrop-blur-md rounded-lg p-4 border border-shasti-purple/30 shadow-lg">
                 <div className="flex items-center space-x-3">
                   <div className="h-10 w-10 bg-green-500/20 rounded-full flex items-center justify-center">

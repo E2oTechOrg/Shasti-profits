@@ -36,6 +36,13 @@
   }
 }
 
+@media (max-width: 1023px) {
+  .reveal-left,
+  .reveal-right {
+    transform: none !important;
+  }
+}
+
 @layer base {
   * {
     @apply border-border;

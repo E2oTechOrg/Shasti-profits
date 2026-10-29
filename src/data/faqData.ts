@@ -22,7 +22,7 @@ export const faqItems: FaqItem[] = [
   {
     question: 'What topics do you cover?',
     answer:
-      'Stock market fundamentals, technical analysis, price action, market trends, Open Interest (OI), futures and options concepts, and risk management principles such as position sizing and risk-reward.',
+      'Stock market fundamentals, technical analysis, price action, market trends, institutional methodology, futures and options concepts, and risk management principles such as position sizing and risk-reward.',
   },
   {
     question: 'Who is this for?',
