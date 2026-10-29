@@ -32,6 +32,6 @@ export const faqItems: FaqItem[] = [
   {
     question: 'How can I contact Shasti Profits?',
     answer:
-      'Call 95145 99911, 95146 99911 or 95147 99911, email shastiprofits@gmail.com, or visit us at No.8 Gowripuram Extn, 2nd Street, Karur 639 002.',
+      'Call : 95145 99911 or 95146 99911 , email: shastiprofits@gmail.com, or visit us at Shasti Profits, Coimbatore Road, Karur.',
   },
 ];
