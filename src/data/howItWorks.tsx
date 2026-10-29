@@ -19,7 +19,7 @@ export const steps: Step[] = [
     number: '02',
     icon: <LineChart className="h-6 w-6" />,
     title: 'Understand Analysis Concepts',
-    description: 'Study charts, price action, Open Interest, volume and derivatives concepts in a structured, easy-to-follow way.',
+    description: 'Study charts, price action, institutional methodology, volume and derivatives concepts in a structured, easy-to-follow way.',
   },
   {
     number: '03',

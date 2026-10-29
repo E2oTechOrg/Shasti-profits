@@ -22,7 +22,7 @@ const Hero = () => {
               Your Journey to <span className="text-gradient">Understanding the Stock Market</span> Begins Here
             </h1>
             <p className="text-lg text-gray-300 mb-8 max-w-lg">
-              Shasti Profits helps you understand the Indian stock market through structured learning — technical analysis, price action, Open Interest, derivatives concepts and risk management.
+              Shasti Profits helps you understand the Indian stock market through structured learning — technical analysis, price action, derivatives concepts, smart money concepts, institutional methodology and risk + money management.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#features">
@@ -41,17 +41,14 @@ const Hero = () => {
             <div className="mt-8 flex items-center space-x-6">
               <div>
                 <p className="text-2xl font-bold text-white">Equity</p>
-                <p className="text-sm text-gray-400">Market Basics</p>
               </div>
-              <div className="h-12 w-px bg-gray-700"></div>
+              <div className="h-8 w-px bg-gray-700"></div>
               <div>
-                <p className="text-2xl font-bold text-white">F&amp;O</p>
-                <p className="text-sm text-gray-400">Derivatives Concepts</p>
+                <p className="text-2xl font-bold text-white">Futures &amp; Options</p>
               </div>
-              <div className="h-12 w-px bg-gray-700"></div>
+              <div className="h-8 w-px bg-gray-700"></div>
               <div>
-                <p className="text-2xl font-bold text-white">OI</p>
-                <p className="text-sm text-gray-400">Market Data</p>
+                <p className="text-2xl font-bold text-white">Commodities</p>
               </div>
             </div>
           </div>

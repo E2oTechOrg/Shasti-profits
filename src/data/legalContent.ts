@@ -85,7 +85,7 @@ export const legalDocs: Record<string, LegalDoc> = {
       {
         heading: 'About Our Services',
         paragraphs: [
-          'Shasti Profits is a financial education platform. We explain concepts relating to the Indian stock market, including technical analysis, price action, Open Interest, futures and options, and risk management.',
+          'Shasti Profits is a financial education platform. We explain concepts relating to the Indian stock market, including technical analysis, price action, institutional methodology, futures and options, and risk management.',
         ],
       },
       {

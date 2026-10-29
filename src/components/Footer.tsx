@@ -4,7 +4,7 @@ import {
 } from 'lucide-react';
 
 const WHATSAPP = '919514599911';
-const phones = ['95145 99911', '95146 99911', '95147 99911'];
+const phones = ['95145 99911', '95146 99911'];
 const MAPS_LINK =
   'https://www.google.com/maps/search/?api=1&query=' +
   encodeURIComponent('No.8 Gowripuram Extn 2nd Street Karur 639002');
@@ -111,9 +111,9 @@ const Footer = () => {
                 >
                   <MapPin className="h-5 w-5 mr-3 mt-0.5 shrink-0 text-shasti-purple" />
                   <span>
-                    No.8 Gowripuram Extn<br />
-                    2nd Street<br />
-                    Karur 639 002
+                    Shasti Profits,<br />
+                    Coimbatore Road,<br />
+                    Karur
                   </span>
                 </a>
               </li>
