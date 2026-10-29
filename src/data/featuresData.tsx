@@ -26,7 +26,7 @@ export const features: Feature[] = [
   {
     icon: <BarChart3 className="h-6 w-6" />,
     title: 'Market Data Education',
-    description: 'Understand Open Interest, volume, market structure, and how these concepts are interpreted in financial market analysis.',
+    description: 'Understand institutional methodology, volume, market structure, and how these concepts are interpreted in financial market analysis.',
   },
   {
     icon: <ShieldCheck className="h-6 w-6" />,
